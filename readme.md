@@ -8,13 +8,13 @@ This utility will download the IB Java client code from [here](http://interactiv
 
 To use:
 ```
-clj -Sdeps '{:deps {tws-install/tws-install {:git/url "https://github.com/jjttjj/tws-install.git" :sha "76cb2184155eb1a08a35232aceb2d686739d419f"}}}' -M tws-install
+clj -Sdeps '{:deps {tws-install/tws-install {:git/url "https://github.com/jjttjj/tws-install.git" :sha "76cb2184155eb1a08a35232aceb2d686739d419f"}}}' -m tws-install
 
 ```
 
 Or, with powershell:
 ```
-clj -Sdeps '{:deps {tws-install/tws-install {:git/url ""https://github.com/jjttjj/tws-install.git"" :sha ""76cb2184155eb1a08a35232aceb2d686739d419f""}}}' -M tws-install
+clj -Sdeps '{:deps {tws-install/tws-install {:git/url ""https://github.com/jjttjj/tws-install.git"" :sha ""76cb2184155eb1a08a35232aceb2d686739d419f""}}}' -m tws-install
 
 ```
 
