@@ -1,0 +1,5 @@
+{:paths   ["src"]
+ :deps
+ {hato/hato         {:mvn/version "0.7.0"}
+  badigeon/badigeon {:mvn/version "1.1"}}
+ :aliases {:install {:main-opts ["--main" "tws-install"]}}}
